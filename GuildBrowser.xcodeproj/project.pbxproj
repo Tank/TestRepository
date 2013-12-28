@@ -11,7 +11,6 @@
 		8C8B5AB4186F01BA00E12065 /* character.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C8B5AB2186F01BA00E12065 /* character.json */; };
 		8C8B5AB5186F01BA00E12065 /* guild.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C8B5AB3186F01BA00E12065 /* guild.json */; };
 		8C8B5AB8186F01E200E12065 /* CharacterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8B5AB7186F01E200E12065 /* CharacterTests.m */; };
-		8C8B5ABB186F152300E12065 /* test-reports in Resources */ = {isa = PBXBuildFile; fileRef = 8C8B5ABA186F152300E12065 /* test-reports */; };
 		CB9FDC4015E9872D00B3713E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC3F15E9872D00B3713E /* UIKit.framework */; };
 		CB9FDC4215E9872D00B3713E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4115E9872D00B3713E /* Foundation.framework */; };
 		CB9FDC4415E9872D00B3713E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4315E9872D00B3713E /* CoreGraphics.framework */; };
@@ -84,7 +83,6 @@
 		8C8B5AB3186F01BA00E12065 /* guild.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = guild.json; sourceTree = "<group>"; };
 		8C8B5AB6186F01E200E12065 /* CharacterTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterTests.h; sourceTree = "<group>"; };
 		8C8B5AB7186F01E200E12065 /* CharacterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterTests.m; sourceTree = "<group>"; };
-		8C8B5ABA186F152300E12065 /* test-reports */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "test-reports"; sourceTree = "<group>"; };
 		CB9FDC3B15E9872D00B3713E /* GuildBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuildBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB9FDC3F15E9872D00B3713E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CB9FDC4115E9872D00B3713E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -200,10 +198,17 @@
 			path = testdata;
 			sourceTree = "<group>";
 		};
+		8C8B5ABC186F155F00E12065 /* test-reports */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "test-reports";
+			sourceTree = "<group>";
+		};
 		CB9FDC3015E9872D00B3713E = {
 			isa = PBXGroup;
 			children = (
-				8C8B5ABA186F152300E12065 /* test-reports */,
+				8C8B5ABC186F155F00E12065 /* test-reports */,
 				CB9FDCEC15E9B31400B3713E /* images */,
 				CB9FDCC115E9A8DA00B3713E /* AFNetworking */,
 				CB9FDC4515E9872D00B3713E /* GuildBrowser */,
@@ -488,7 +493,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C8B5ABB186F152300E12065 /* test-reports in Resources */,
 				CB9FDC6815E9872E00B3713E /* InfoPlist.strings in Resources */,
 				8C8B5AB5186F01BA00E12065 /* guild.json in Resources */,
 				8C8B5AB4186F01BA00E12065 /* character.json in Resources */,
